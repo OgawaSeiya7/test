@@ -16,8 +16,13 @@ class ViewController: UIViewController {
         if let specialKey = Bundle.main.object(forInfoDictionaryKey: "SPECIAL_KEY") as? String {
             testLabel.text = "\(specialKey)"
         }
+        
+        abc()
     }
 
+    func abc() {
+        print("function")
+    }
 
 }
 
