@@ -20,6 +20,8 @@ class ViewController: UIViewController {
         abc()
         
         abcdef()
+        
+        test()
     }
 
     func abc() {
@@ -28,6 +30,10 @@ class ViewController: UIViewController {
     
     func abcdef() {
         print("abcdef")
+    }
+    
+    func test() {
+        print("testbranch")
     }
 
 }
