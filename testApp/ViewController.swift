@@ -18,10 +18,16 @@ class ViewController: UIViewController {
         }
         
         abc()
+        
+        abcdef()
     }
 
     func abc() {
         print("function")
+    }
+    
+    func abcdef() {
+        print("abcdef")
     }
 
 }
